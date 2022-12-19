@@ -1,0 +1,140 @@
+*{
+    list-style: none;
+    font-family: helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body{
+   background-color: rgb(224, 215, 215);
+}
+.pagina-princ{
+    width: 1200px;
+    margin-inline: auto;
+    background-color: blanchedalmond;
+}
+nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(224, 215, 215);
+    height: 80px;
+    position: fixed;
+top:0;
+background-color: blanchedalmond;
+width: 90.6vw;
+
+ 
+}
+#cat{
+    padding-top: 120px;
+}
+
+p{
+    color: black;
+    text-align: left;
+    padding-left: 15px;
+
+}
+
+ul{
+   color: black;
+    gap: 15px;
+    display: flex;
+    text-align: right;
+    padding-right: 15px;
+   
+}
+ul a{
+   color: black;
+    text-decoration: none;
+}
+
+section{
+    background-color: rgb(130, 130, 143);
+    min-height: 60px;
+    padding: 50px;
+
+}
+
+.produtos{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 12px;
+    text-align: center;
+}
+
+.produto-img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img-1{
+    background-image: url(./img/10002420-removebg-preview.png);
+
+}
+#img-2{
+    background-image: url(./img/download-removebg-preview.png);
+}
+#img-3{
+    background-image: url(./img/heineken-original-bottle.png);
+}
+#img-4{
+    background-image: url(./img/Pilsen_cerveja.png.png);
+}
+#img-5{
+    background-image: url(./img/902-9021471_premium-lager-stella-artois-stella-artois-removebg-preview.png);
+}
+#img-6{
+    background-image: url(./img/10001927-removebg-preview.png);
+}
+
+.price{
+    text-align: center;
+}
+.btn{
+ background-color: rgb(228, 248, 47);
+ margin-top: 12px;
+    padding: 12px 16px;
+    display: block;
+    width: 120px;
+    margin-inline: auto;
+    color: black;
+}
+
+.price{
+    cursor: default;
+}
+.bebidas{
+    font-family: sans-serif;
+    color: blanchedalmond;
+    font-weight: bold;
+    height: 80px;
+    font-size: 30px;
+}
+
+footer{
+    background-color: blanchedalmond;
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
